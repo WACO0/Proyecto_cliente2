@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/before_i_grow_up_by_yuumei_d8ptej4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button4"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="20dp"
+        android:text="METAS LP"
+        android:textColor="#050505"
+        app:iconTint="#7C4DFF"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991"
+        app:strokeColor="#B2FF59"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:text="METAS POR SEMANA"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#B2FF59"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="520dp"
+        android:onClick="Siguiente"
+        android:text="@string/BotonSiguiente"
+        android:textColor="#050505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="#B2FF59"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:text="¡REALIZA TUS METAS!"
+        android:textColor="#9A9671"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="37sp"
+        android:textStyle="normal|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

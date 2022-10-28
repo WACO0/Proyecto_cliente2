@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pendientes</string>
+    <string name="textView1">Que pendientes hay?</string>
+    <string name="textView2">Que pendientes hay?</string>
+    <string name="textView3">Que pendientes hay?</string>
+    <string name="textView4">Que pendientes hay?</string>
+    <string name="textView5">Que pendientes hay?</string>
+    <string name="textView6">Que pendientes hay?</string>
+    <string name="textView7">Que pendientes hay?</string>
+    <string name="textView8">Que pendientes hay?</string>
+    <string name="Button">que pendientes hay?</string>
+    <string name="BotonSiguiente">METAS DIARIAS</string>
+    <string name="BotonAnterior">REGRESAR</string>
+</resources>
