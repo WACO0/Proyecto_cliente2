@@ -10,5 +10,6 @@
     <string name="textView8">Que pendientes hay?</string>
     <string name="Button">que pendientes hay?</string>
     <string name="BotonSiguiente">METAS DIARIAS</string>
+    <string name="BotonSiguiente1">TAREAS</string>
     <string name="BotonAnterior">REGRESAR</string>
 </resources>

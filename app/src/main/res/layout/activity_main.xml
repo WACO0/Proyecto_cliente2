@@ -30,7 +30,7 @@
         android:layout_width="209dp"
         android:layout_height="49dp"
         android:layout_marginBottom="16dp"
-        android:text="METAS POR SEMANA"
+        android:text="@string/BotonSiguiente1"
         android:textColor="#050505"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
